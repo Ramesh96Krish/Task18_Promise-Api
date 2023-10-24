@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EmojiHub</title>
+    <link href="emoji.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="rows">
+        <h1>WELCOME TO EMOJI<span class="hub">HUB</span></h1>
+        <p>Emojis are depictions of human emotions, living beings, objects and even certain symbols. These can be used across the internet such as in text messaging, social media platforms and pretty much for any informal modes of communication.</p>
+        <div>
+            <img src="point.png" alt="press down the button"/>
+        </div>
+    </div>
+    <div class="rows">
+        <button class="submit" onclick="getTheEmojis()" type="submit">Get Random Emojis</button>
+    </div>
+    <table class="table table-dark table-borderless">
+        <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Category</th>
+              <th scope="col">Group</th>
+              <th scope="col">Htmlcode</th>
+              <th scope="col">Unicode</th>
+            </tr>
+          </thead>
+          <tbody id="appenToTableBody">
+
+          </tbody>
+
+    <script src="script.js"></script>
+</body>
+</html>
